@@ -395,8 +395,8 @@ export async function onRequest(context) {
   const submissionEnabled = String(env.ENABLE_PUBLIC_SUBMISSION) === 'true';
   const submissionClass = submissionEnabled ? '' : 'hidden';
 
-  const siteName = env.SITE_NAME || '灰色轨迹';
-  const siteDescription = env.SITE_DESCRIPTION || '一个优雅、快速、易于部署的书签（网址）收藏与分享平台，完全基于 Cloudflare 全家桶构建';
+  const siteName = env.SITE_NAME || '王章侗导航';
+  const siteDescription = env.SITE_DESCRIPTION || '';
   const footerText = env.FOOTER_TEXT || '曾梦想仗剑走天涯';
   
   // Conditional Title/Subtitle HTML
