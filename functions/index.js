@@ -396,8 +396,7 @@ export async function onRequest(context) {
   const submissionClass = submissionEnabled ? '' : 'hidden';
 
   const siteName = env.SITE_NAME || '王章侗导航';
-  const siteDescription = env.SITE_DESCRIPTION || '';
-  const footerText = env.FOOTER_TEXT || '曾梦想仗剑走天涯';
+  const siteDescription = env.SITE_DESCRIPTION || '心若在，梦就在，天地之间还有真爱；看成败，人生豪迈，只不过是从头再来。';const footerText = env.FOOTER_TEXT || '曾梦想仗剑走天涯';
   
   // Conditional Title/Subtitle HTML
   const mainTitleHtml = layoutHideTitle ? '' : `<h1 class="mt-4 text-3xl md:text-4xl font-semibold tracking-tight ${titleColorClass}">{{SITE_NAME}}</h1>`;
